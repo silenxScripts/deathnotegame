@@ -1,0 +1,73 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    .playerList{
+        height: 100vh;
+        padding: 20px;
+        box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 1.5rem;
+            background-color: darkcyan;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+            width: 90%;
+            li{
+                list-style: none;
+                margin-top: 5px;
+            }
+        }
+
+        .btns{
+            margin-top: auto;
+        }
+        button{
+            margin: 10px 0px;
+            background-color: darkcyan;
+            border-radius: 5px;
+            border: 0px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            width: 100%;
+            align-self: center;
+            color: white;
+        }
+    }
+
+    .rules{
+        flex: 1;
+        padding: 20px;
+        padding-left: 50px;
+
+        h1{
+            font-size: 1.5rem;
+            background-color: darkcyan;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        ul{
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+            width: 70%;
+            margin-left: 10%;
+            li{
+                list-style: decimal;
+                margin-top: 5px;
+            }
+        }
+    }
+}
